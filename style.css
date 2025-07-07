@@ -1,0 +1,76 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 100%;
+  max-width: 500px;
+}
+h1 {
+  text-align: center;
+  color: #333;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+button {
+  width: 100%;
+  padding: 12px;
+  background: #111;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover {
+  background: #333;
+}
+#gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.vale-card {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 240px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+.vale-card.legendary {
+  border: 3px solid gold;
+  background: #fffbea;
+}
+.vale-card.epic {
+  border: 3px solid purple;
+  background: #f9f0ff;
+}
+.vale-card.rare {
+  border: 3px solid dodgerblue;
+  background: #eef7ff;
+}
+.vale-card button {
+  margin-top: 10px;
+  padding: 8px;
+  background: #444;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
